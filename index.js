@@ -10,11 +10,11 @@ setInterval(function () {
     "may",
     "june",
     "july",
-    "aguest",
-    "saptember",
+    "August",
+    "September",
     "october",
     "november",
-    "dacember",
+    "December",
   ];
 
   const date = new Date();
