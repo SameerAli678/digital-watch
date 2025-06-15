@@ -24,10 +24,21 @@ setInterval(function () {
   const hour = date.getHours();
   const mint = date.getMinutes();
   const second = date.getSeconds();
-  const session = hour <= 11 ?  " AM " : "PM";
+  const session = hour <= 11 ? " AM " : "PM";
   console.log(date);
-  
 
   clock.innerHTML =
-    dat + " " + mounts + " " + year + "<br>" + hour + ":" + mint + ":" + second + " " + session;
+    dat +
+    " " +
+    mounts +
+    " " +
+    year +
+    "<br>" +
+    hour +
+    " : " +
+    mint +
+    " : " +
+    second +
+    " " +
+    session;
 }, 1000);
